@@ -28,3 +28,34 @@ main {
  transform: translateY(0);
  }
 }
+
+.przepis {
+  margin-top: 30px;
+  background-color: white;
+  padding: 15px;
+  padding-right: 70px;
+  display: inline-block;
+  border: solid 2px black;
+}
+.przepis-zawartosc {
+  display: flex;
+}
+.tabelka tr th {
+  border: solid 2px black;
+  position: relative;
+  left: 15px;
+  padding: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: left;
+}
+.img {
+  max-height: 20vh;
+  max-width: 20vw;
+  border: solid 2px black;
+}
+
+.Header-links-ul{
+    display: flex;
+    justify-content: space-around;
+}
